@@ -6,7 +6,7 @@
 
   /* main */
   .main-container {
-    @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md: pb-32 sm:px-10;
+    @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
   }
 
   /* Head Text */
@@ -119,7 +119,7 @@
 
 /* Clerk Responsive fix */
 .cl-organizationSwitcherTrigger .cl-userPreview .cl-userPreviewTextContainer {
-  /* @apply max-sm: hidden; */
+  @apply max-sm:hidden;
 }
 
 .cl-organizationSwitcherTrigger .cl-organizationPreview .cl-organizationPreviewTextContainer {
@@ -143,7 +143,7 @@
 }
 
 .account-form_image-input {
-  /* @apply cursor-pointer border-none bg-transparent outline-none file: text-blue !important; */
+  @apply cursor-pointer border-none bg-transparent outline-none file:text-blue !important;
 }
 
 .account-form_input {
@@ -152,9 +152,9 @@
 
 /* Comment Form */
 .comment-form {
-  /* @apply mt-10 flex items-center gap-4 border-y border-y-dark-4 py-5 max-xs: flex-col !important; */
+  @apply mt-10 flex items-center gap-4 border-y border-y-dark-4 py-5 max-xs:flex-col !important;
 }
 
 .comment-form_btn {
-  /* @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-light-1 max-xs: w-full !important; */
+  @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-light-1 max-xs:w-full !important;
 }
